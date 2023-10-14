@@ -1,9 +1,11 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\zio-http_2.13-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	MyApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\classes\MyApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	MyApp$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\classes\MyApp$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	MyApp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\classes\MyApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIOHTTP$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\classes\ZIOHTTP$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIOHTTP$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\classes\ZIOHTTP$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIOHTTP$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\classes\ZIOHTTP$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIOHTTP.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\classes\ZIOHTTP.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

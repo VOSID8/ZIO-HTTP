@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(35914d67-5502-4d06-acea-8ec61e08abaa), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\ZIO-HTTP\zio-http\src\main\scala\Main.scala:7:8: value UHttpApp is not a member of object zhttp.service.Server[0m
+[0m[[0m[31merror[0m] [0m[0mimport zhttp.service.Server.{UHttpApp, app}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 15-Oct-2023, 1:52:32 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
