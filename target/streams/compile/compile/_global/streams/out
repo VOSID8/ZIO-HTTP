@@ -1,0 +1,17 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\ZIO-HTTP\zio-http\src\main\scala\Main.scala:2:12: object console is not a member of package zio[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean Console?[0m
+[0m[[0m[31merror[0m] [0m[0mimport zio.console._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\ZIO-HTTP\zio-http\src\main\scala\Main.scala:4:34: type App is not a member of package zio[0m
+[0m[[0m[31merror[0m] [0m[0mobject ZioPlayground extends zio.App {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\ZIO-HTTP\zio-http\src\main\scala\Main.scala:7:10: not found: value console[0m
+[0m[[0m[31merror[0m] [0m[0m    _ <- console.putStrLn("What is your name?")[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\ZIO-HTTP\zio-http\src\main\scala\Main.scala:8:13: not found: value console[0m
+[0m[[0m[31merror[0m] [0m[0m    name <- console.getStrLn[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\ZIO-HTTP\zio-http\src\main\scala\Main.scala:9:10: not found: value console[0m
+[0m[[0m[31merror[0m] [0m[0m    _ <- console.putStrLn(s"Hello, ${name}, welcome to ZIO!")[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
