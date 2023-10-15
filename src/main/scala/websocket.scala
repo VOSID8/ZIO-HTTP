@@ -1,13 +1,18 @@
-
+// import io.netty.handler.codec.http.websocketx.WebSocketFrame
+// import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler.HandshakeComplete
+// import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler.HandshakeTimeout
 import zio._
 import zio.Console._
+import zhttp.socket.WebSocketFrame
+import zhttp.service.ChannelEvent.UserEvent.{ HandshakeComplete, HandshakeTimeout }
+import zhttp.socket._
 import zhttp._
 import zhttp.http._
 import zhttp.http.Http
-import zhttp.service.Server
+import zhttp.service._
+import zhttp.service.ChannelEvent._
 
-
-object ZIOHTTP extends ZIOAppDefault {
+object ZIOwebsockets extends ZIOAppDefault {
   val port = 9000
 
   val sarcastically: String => String =

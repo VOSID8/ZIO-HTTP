@@ -4,6 +4,8 @@ import zhttp._
 import zhttp.http._
 import zhttp.http.Http
 import zhttp.service.Server
+import zhttp.service._
+import zhttp.http.middleware.Cors.CorsConfig
 
 
 object ZIOHTTP extends ZIOAppDefault {
@@ -67,18 +69,26 @@ object ZIOHTTP extends ZIOAppDefault {
             }
           }
       }
-    object Cors {
-      final case class CorsConfig(
-        anyOrigin: Boolean = true,
-        anyMethod: Boolean = true,
-        allowCredentials: Boolean = true,
-        allowedOrigins: String => Boolean = _ => false,
-        allowedMethods: Option[Set[Method]] = None,
-        allowedHeaders: Option[Set[String]] = Some(
-          Set(HttpHeaderNames.CONTENT_TYPE.toString, HttpHeaderNames.AUTHORIZATION.toString, "*"),
-        ),
-        exposedHeaders: Option[Set[String]] = Some(Set("*")),
-      )
-    }
+
+    val config: CorsConfig =
+      CorsConfig(
+        anyOrigin = false,
+        anyMethod = false,
+        allowedOrigins = s => s.equals("localhost"),
+        allowedMethods = Some(Set(Method.GET, Method.POST))
+    )
+    // object Cors {
+    //   final case class CorsConfig(
+    //     anyOrigin: Boolean = true,
+    //     anyMethod: Boolean = true,
+    //     allowCredentials: Boolean = true,
+    //     allowedOrigins: String => Boolean = _ => false,
+    //     allowedMethods: Option[Set[Method]] = None,
+    //     allowedHeaders: Option[Set[String]] = Some(
+    //       Set(HttpHeaderNames.CONTENT_TYPE.toString, HttpHeaderNames.AUTHORIZATION.toString, "*"),
+    //     ),
+    //     exposedHeaders: Option[Set[String]] = Some(Set("*")),
+    //   )
+    // }
 
 }

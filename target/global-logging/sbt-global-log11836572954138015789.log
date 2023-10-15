@@ -1,3 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(f5f18f92-53dd-476f-b536-43cb0520bfc7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Projects\ZIO-HTTP\zio-http\target\scala-2.13\classes ...[0m
 [0m[[0m[31merror[0m] [0m[0mC:\Projects\ZIO-HTTP\zio-http\src\main\scala\Main.scala:88:15: not found: value HttpHeaderNames[0m
 [0m[[0m[31merror[0m] [0m[0m          Set(HttpHeaderNames.CONTENT_TYPE.toString, HttpHeaderNames.AUTHORIZATION.toString, "*"),[0m
 [0m[[0m[31merror[0m] [0m[0m              ^[0m
@@ -5,3 +9,6 @@
 [0m[[0m[31merror[0m] [0m[0m          Set(HttpHeaderNames.CONTENT_TYPE.toString, HttpHeaderNames.AUTHORIZATION.toString, "*"),[0m
 [0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 15-Oct-2023, 12:52:39 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
