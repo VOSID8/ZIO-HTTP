@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Projects\ZIO-HTTP\zio-http\src\main\scala\Main.scala:7:8: value UHttpApp is not a member of object zhttp.service.Server[0m
-[0m[[0m[31merror[0m] [0m[0mimport zhttp.service.Server.{UHttpApp, app}[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\ZIO-HTTP\zio-http\src\main\scala\Main.scala:32:40: object debug is not a member of package zhttp.http.middleware[0m
+[0m[[0m[31merror[0m] [0m[0m  val wrapped = combined @@ middleware.debug[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
